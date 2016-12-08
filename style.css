@@ -1,0 +1,97 @@
+body {
+    margin: 50px 100px;
+    font-family: Calibri, Tahoma, monospace;
+}
+
+header {
+    display: block;
+    border: 1px solid;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    margin: auto auto 5px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav {
+    display: block;
+    border: 1px solid;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+main {
+    display: block;
+    border: 1px solid;
+    text-align: center;
+    margin: 0 0 5px;
+    height: 700px;
+}
+
+footer {
+    display: block;
+    border: 1px solid;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 300px;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+.table-head {
+    text-align: center;
+}
+
+.table-head-text {
+    background-color: white;
+    font-size: 16px;
+}
+
+.table-td-text {
+    width: 100px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 0 0 0 5px;
+    color: white;
+    background-color: forestgreen;
+    border-radius: 2px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.table-td-input {
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.table-checkbox {
+    text-align: right;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.table-foot {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn {
+    margin: 5px 5px;
+    cursor: pointer;
+    border: 1px solid #72b837;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background: forestgreen;
+}
+
+.little-text {
+    font-size: 12px;
+}

@@ -105,7 +105,7 @@ function gender($pol)
                 </tr>
                 <tr>
                     <td class="table-td-text"> Ваш пол:</td>
-                    <td><select name="gender">
+                    <td align="left"><select name="gender">
                             <option value="0">Выберите пол</option>
                             <option value="1">Мужчина</option>
                             <option value="2">Женщина</option>

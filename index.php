@@ -15,10 +15,10 @@ if (isset($_POST['submit']) && !empty($_POST['username']) && isset($_POST['remem
         $_SESSION['uname'] = $_POST['username'];
         $_SESSION['passwd'] = $_POST['userpass'];
         $_SESSION['gend'] = $_POST['gender'];
-        $enter = 1;
+        $enter = 1; // переменная "переключатель"
 }
 
-// Проверка
+// Проверка на существование в сессии переменной с логином
 if (isset($_SESSION['uname'])){
     $enter = 1;
 }else{
@@ -76,7 +76,7 @@ function gender($pol)
     <?php
     // Вывод приветствия с учетом пола пользователя
     if ($enter == 1){
-        echo gender($_SESSION['gend']) . ', мы вас запомнили!';
+        echo gender($_SESSION['gend']) . ', ' . $_SESSION['uname'] .' мы вас запомнили!';
     }else {
 
     ?>

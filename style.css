@@ -95,3 +95,8 @@ table {
 .little-text {
     font-size: 12px;
 }
+
+.hello-text {
+    color: red;
+    font-size: 16px;
+}
